@@ -24,9 +24,10 @@ phases:
 
 artifacts:
   files:
-    - "**/*"
+  #  - "**/*"
+      - '**/*'
   name: "web-dist-${env}"
-  base-directory: build
+#  base-directory: build
 
 cache:
   paths:
