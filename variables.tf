@@ -15,22 +15,22 @@ variable "repository_branch" {
 
 variable "repository_owner" {
   description = "GitHub repository owner"
-  default     = "stojce"
+  default     = "Chitab89"
 }
 
 variable "repository_name" {
   description = "GitHub repository name"
-  default     = "static-web-example"
+  default     = "pythonexample"
 }
 
 variable "static_web_bucket_name" {
   description = "S3 Bucket to deploy to"
-  default     = "static-web-example-bucket"
+  default     = "static-web-example-bucket-tabby1"
 }
 
 variable "artifacts_bucket_name" {
   description = "S3 Bucket for storing artifacts"
-  default     = "static-web-example-artifacts"
+  default     = "static-web-example-artifacts-tabby1"
 }
 
 variable "github_token" {
