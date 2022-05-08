@@ -7,10 +7,10 @@ env:
 phases:
   install:
     runtime-versions:
-      nodejs: 12
+      nodejs: 15
     commands:
       - pwd
-      - ls -alh
+      - ls -alh src
       - npm i
       # - npm run lint
   pre_build:
