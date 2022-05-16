@@ -10,8 +10,8 @@ phases:
       nodejs: 12
     commands:
       - pwd
-      - ls -alh src
-      - cd src
+      - ls -alh
+      #- cd src
       - npm i
       # - npm run lint
   pre_build:
