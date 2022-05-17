@@ -11,6 +11,10 @@ phases:
     commands:
       - pwd
       - ls -alh
+      -mkdir src
+      - cd src
+
+
       #- cd src
       - npm i
       # - npm run lint
