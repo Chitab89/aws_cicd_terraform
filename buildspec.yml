@@ -10,7 +10,7 @@ phases:
       nodejs: 12
     commands:
       - pwd
-      - ls -alh
+      - ls -alz
       - mkdir src
       - cd src
 
